@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://kit.fontawesome.com/df3e01a4e2.js" crossorigin="anonymous"></script>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="shortcut icon" type="image/x-icon" href="AADN_Website_logo.jpg" />
+   </head>
+<body>
+  <div class="sidebar">
+    <div class="logo-details">
+      <img src="AADN_Website_logo.jpg" alt="fernays" width="50px" height="50px"> &nbsp;&nbsp;
+        <div class="logo_name" style="font-size: 15px;">AADN</div>
+        <i class='bx bx-menu' id="btn" ></i>
+    </div>
+    <ul class="nav-list">
+      <li>
+        <a href="home">
+          <i class="fa-solid fa-house"></i>
+          <span class="links_name">Home</span>
+        </a>
+         <span class="tooltip">Home</span>
+      </li>
+      <li>
+       <a href="about">
+        <i class="fa-solid fa-info"></i>
+         <span class="links_name">About</span>
+       </a>
+       <span class="tooltip">About</span>
+     </li>
+     <li>
+       <a href="pricing">
+        <i class="fa-solid fa-money-bill-1"></i>
+         <span class="links_name">Pricing</span>
+       </a>
+       <span class="tooltip">Pricing</span>
+     </li>
+     <li>
+      <a href="services">
+        <i class="fa-brands fa-servicestack"></i>
+        <span class="links_name">Services</span>
+      </a>
+      <span class="tooltip">Services</span>
+    </li>
+     <li>
+       <a href="contact">
+        <i class="fa-solid fa-address-card"></i>
+         <span class="links_name">Contact</span>
+       </a>
+       <span class="tooltip">Contact</span>
+     </li>
+     <li>
+      <a href="policies">
+        <i class="fa-solid fa-circle-info"></i>
+        <span class="links_name">Policies & Procedures</span>
+      </a>
+      <span class="tooltip">Policies & Procedures</span>
+    </li>
+    <li>
+      <a href="wnp">
+       <i class="fa-solid fa-book"></i>
+        <span class="links_name">Weekly Nursery Planner</span>
+      </a>
+      <span class="tooltip">Weekly Nursery Planner</span>
+    </li>
+    <li>
+      <a href="wnp">
+        <i class="fa-solid fa-building"></i>
+        <span class="links_name">Work for us</span>
+      </a>
+      <span class="tooltip">Work for us</span>
+    </li>
+    </ul>
+  </div>
+  <center style="font-size: 15px; margin-left: 130px; margin-right: 80px;">
+    <br>
+    <p>At Amy’s Angels Day Nursery our work environment is positive, supportive, full of excitement, enjoyment and rewards.  Our nursery offers one of the best and highest expectations as owners as well as managers to best support all of our staff alongside student learners ( placement students and apprentices).  Think you can handle the challenge of thinking on your feet, engaging children in role play, putting your all into physical play and getting messy during messy play daily.  Amy’s Angels Day Nursery are looking for enthusiastic, dynamic, spontaneous, professional, inspirational and caring individuals who will be 100 perfect committed and devoted to give the highest possible care, education and developmental chances to all the children that attend Amy’s Angels Day Nursery as well as being devoted to develop your career as an early years practitioner (continual professional development). </p>
+    <br>
+    <h3>Our expectations and requirements:</h3>
+    
+    <p>To hold a Level 2, 3 or above qualification in childcare.</p>
+    
+    <p>To have a well established knowledge of all children’s regulations and legislations relating to the workplace such as COSHH and RIDDOR.</p>
+    
+    <p>To have a well established knowledge of the Early years foundation stage.</p>
+    
+    <p>To have a well established knowledge of characteristics of effective learning.</P>
+    
+    <p>To understand and partake in a safeguarding children course. </p>
+    
+    <p>To understand and partake in a pediatric first aid course and achieve a minimum of a pass grade. </p>
+    
+    <p>To understand and be able to answer questions of best practice including giving examples.</p>
+    
+    <p>To understand the routine and needs of the nursery, services we offer and children’s individual needs. </p>
+    
+    <p>To be able to reflect on your own practice and be able to recognise any changes in your behaviour/ practice that will benefit the nursery and children in a positive way. </p>
+    
+    <p>To be able to work as a team under pressure, communicate on a daily basis and contribute to planning, assessment and observations.</p>
+    <p>To contribute outstanding, original, beneficial and practical ideas to the nursery, activity planning, room changes, display boards and circle time. </p>
+    
+    <p>To be creative, think on your feet and be spontaneous with learning and early years outcomes and goals. </p>
+    
+    <p>To be able to show your support to other staff members and any visitors that may attend Amy’s Angels Day Nursery.</p>
+    
+    <p>To learn and develop your career at a steady pace for yourself. </p>
+    
+    <p>To be able to recognise signs of abuse and be able to act upon concerns no matter how small they may be. To know the steps on how to report concerns for children. </p>
+    
+    <p>To make an effort to learn parents names and create a well established bond, confidence and confidentiality trust with all parents especially your key children.</p> 
+    
+    <p>To have a working and beneficial parent and partnership relationship with parents. </p>
+    
+    <p>To have a strong work ethnic </p>
+    
+    <p>To be on time, meet deadlines  and have a good attendance rate</p>
+    
+    <p>To have a positive attitude and smile on your face all day </p>
+    
+    <p>To be able to make children laugh, smile and build upon their self- confidence and independence </p>
+    
+    <p>To be able to recognise SEN needs and take part in early detection and intervention</p>
+    
+    <p>Are you up determined and up for this challenge ?  Then drop your contact details and CV on the application form below. The owner of Amy’s Angels Day Nursery look forward to hearing from you and reply’s I think 2 working days. Good Luck from the team at Amy ‘s Angels Day Nursery.</p>
+    <br>
+  </center>
+  <script>
+  let sidebar = document.querySelector(".sidebar");
+  let closeBtn = document.querySelector("#btn");
+  let searchBtn = document.querySelector(".bx-search");
+
+  closeBtn.addEventListener("click", ()=>{
+    sidebar.classList.toggle("open");
+    menuBtnChange();//calling the function(optional)
+  });
+
+  searchBtn.addEventListener("click", ()=>{ // Sidebar open when you click on the search iocn
+    sidebar.classList.toggle("open");
+    menuBtnChange(); //calling the function(optional)
+  });
+
+  // following are the code to change sidebar button(optional)
+  function menuBtnChange() {
+   if(sidebar.classList.contains("open")){
+     closeBtn.classList.replace("bx-menu", "bx-menu-alt-right");//replacing the iocns class
+   }else {
+     closeBtn.classList.replace("bx-menu-alt-right","bx-menu");//replacing the iocns class
+   }
+  }
+  </script>
+</body>
+</html>
